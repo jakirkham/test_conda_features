@@ -2,7 +2,5 @@ package:
   name:  track_vc11
   version: "1.0"
 build:
-  features:
-    - vc11
   track_features:
     - vc11
