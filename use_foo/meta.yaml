@@ -1,0 +1,14 @@
+package:
+  name:  use_foo
+  version: "1.0"
+build:
+  string: vc11
+  features:
+    - vc11
+requirements:
+  build:
+    - track_vc11
+    - foo
+  run:
+    - track_vc11
+    - foo

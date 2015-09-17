@@ -1,0 +1,12 @@
+package:
+  name:  foo
+  version: "1.0"
+build:
+  string: vc11
+  features:
+    - vc11
+requirements:
+  build:
+    - track_vc11
+  run:
+    - track_vc11
